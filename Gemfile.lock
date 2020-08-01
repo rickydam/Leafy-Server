@@ -59,9 +59,8 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.1)
-    bcrypt (3.1.15)
     bindex (0.8.1)
-    bootsnap (1.4.6)
+    bootsnap (1.4.7)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.1.3)
@@ -77,17 +76,13 @@ GEM
     concurrent-ruby (1.1.6)
     crass (1.0.6)
     erubi (1.9.0)
-    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
-    i18n (1.8.3)
+    i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
       activesupport (>= 5.0.0)
-    listen (3.2.1)
-      rb-fsevent (~> 0.10, >= 0.10.3)
-      rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.6.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -100,11 +95,8 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
-    msgpack (1.3.3)
     msgpack (1.3.3-x64-mingw32)
     nio4r (2.5.2)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     parallel (1.19.2)
@@ -146,9 +138,6 @@ GEM
       thor (>= 0.20.3, < 2.0)
     rainbow (3.0.0)
     rake (13.0.1)
-    rb-fsevent (0.10.4)
-    rb-inotify (0.10.1)
-      ffi (~> 1.0)
     regexp_parser (1.7.1)
     rexml (3.2.4)
     rubocop (0.88.0)
@@ -172,8 +161,6 @@ GEM
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
-    sassc (2.4.0)
-      ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
@@ -185,10 +172,6 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    spring (2.1.0)
-    spring-watcher-listen (2.0.1)
-      listen (>= 2.7, < 4.0)
-      spring (>= 1.2, < 3.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
@@ -208,7 +191,6 @@ GEM
     tzinfo-data (1.2020.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     web-console (4.0.4)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -230,7 +212,6 @@ GEM
     zeitwerk (2.4.0)
 
 PLATFORMS
-  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -238,7 +219,6 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
-  listen (~> 3.2)
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
   rubocop (~> 0.88.0)
@@ -246,12 +226,9 @@ DEPENDENCIES
   rubocop-rails (~> 2.7.1)
   sass-rails (>= 6)
   selenium-webdriver
-  spring
-  spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
   tzinfo-data
-  wdm (>= 0.1.0)
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)
@@ -260,4 +237,4 @@ RUBY VERSION
    ruby 2.7.1p83
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
