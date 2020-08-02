@@ -17,6 +17,7 @@ gem 'puma', '~> 4.1'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.15'
+gem 'jwt', '~> 2.2.1'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
